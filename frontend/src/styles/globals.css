@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:where(.css-dev-only-do-not-override-1eubsty).ant-carousel .slick-dots li{
+    width: 32px;
+}

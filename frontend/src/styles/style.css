@@ -1,0 +1,30 @@
+.main-content {
+	position: absolute;
+	width: 100vw;
+	min-height: 100vh;
+	z-index: 1;
+	padding-top: 100px;
+}
+.navBar {
+	background: linear-gradient(180deg, #000 41.67%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.bgImg {
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #000;
+	z-index: -1;
+}
+
+.loginPageBg {
+	background-image: url("../../public/images/TF-BG.svg");
+}
+
+.ant-menu-title-content{
+  color: #fff !important;
+}
+.ant-menu-item-selected .ant-menu-title-content{
+  color: #BBE7E6 !important;
+}

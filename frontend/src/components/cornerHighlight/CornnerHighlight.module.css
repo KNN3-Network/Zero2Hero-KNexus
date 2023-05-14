@@ -1,0 +1,25 @@
+.cornerHighlightTL, .cornerHighlightBR{
+    position: relative;
+}
+
+.cornerHighlightTL::before {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 20px;
+    height: 14px;
+    border-left: 4px solid #B4B4B4;
+    border-top: 4px solid #B4B4B4;
+    content: "";
+}
+
+.cornerHighlightBR::after {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 20px;
+    height: 14px;
+    border-bottom: 4px solid #B4B4B4;
+    border-right: 4px solid #B4B4B4;
+    content: "";
+}
